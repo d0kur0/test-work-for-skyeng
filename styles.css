@@ -1,0 +1,73 @@
+html {
+  background-color: #85A5D4;
+}
+
+body {
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+}
+
+.tariffs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.15);
+}
+
+.tariffs > section {
+  flex-basis: calc(100% / 3 - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.tariffs__icon {
+
+}
+
+.tariffs__icon > img {
+  width: 70px;
+}
+
+.tariffs__name {
+  color: #5572D6;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+}
+
+.tariffs__description {
+  color: #aba9a9;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.tariffs__price {
+  color: #5572D6;
+  margin-top: 20px;
+}
+
+.tariffs__price-currency {
+  vertical-align: super;
+  margin-right: -4px;
+}
+
+.tariffs__price-value {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+.tariffs__price-period {
+  vertical-align: bottom;
+  font-size: 0.9em;
+  font-weight: bold;
+}
