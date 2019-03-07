@@ -11,6 +11,7 @@ body {
 
 .tariffs {
   display: flex;
+  flex-basis: 98%;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 100px 0px;
@@ -18,8 +19,7 @@ body {
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.15);
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding: 10px;
 }
 
 .tariffs > a {
@@ -29,7 +29,7 @@ body {
   flex-direction: column;
   align-items: center;
   transition: 0.3s;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
